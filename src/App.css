@@ -1,0 +1,156 @@
+body {
+  background-color: #effafa;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  color: #2b3939;
+}
+
+.header {
+  background: url("/assets/img/header-shapes.svg") #63baba center center
+    repeat-x;
+  height: 156px;
+}
+
+.jobs {
+  max-width: 1100px;
+  margin-inline: auto;
+  display: grid;
+  gap: 24px;
+  padding-block: 76px;
+}
+
+.jobItem,
+.featuredJob {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 30px 40px;
+  border-radius: 5px;
+  box-shadow: 0px 15px 20px -5px #0d718226;
+
+  & > * {
+    flex-grow: 1;
+    width: calc(50% - 20px);
+  }
+  a {
+    color: #5ca5a5;
+  }
+
+  h3 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 7px;
+  }
+
+  h4 {
+    font-size: 18px;
+    line-height: normal;
+    margin-bottom: 12px;
+  }
+}
+
+h4 span {
+  margin-left: 4px;
+}
+
+/*logoyu seciyorum*/
+.jobDetails a:has(img) {
+  float: left;
+  margin-right: 24px;
+}
+
+.jobTags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-content: center;
+
+  a {
+    background-color: #5ca5a515;
+    border-radius: 4px;
+    font-weight: bold;
+    padding: 6px 12px;
+    line-height: 24px;
+  }
+}
+
+.new,
+.featured {
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #5ca5a5;
+  font-size: 14px;
+  line-height: 14px;
+  border-radius: 12px;
+  padding: 8px 8px 4px;
+}
+
+.fetured {
+  background-color: #2b3939;
+}
+
+.featuredJob {
+  background-color: #fff;
+  gap: 40px;
+  border-radius: 5px;
+  box-shadow: 0px 15px 20px -5px #0d718226;
+  border-left: 5px solid #5ca5a5;
+  padding-left: 35px;
+  a {
+    color: #5ca5a5;
+  }
+}
+
+.filterlist {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  box-shadow: 0px 15px 20px -5px #0d718226;
+  margin-inline: 165px;
+}
+
+.deleteBtn {
+  border: none;
+  cursor: pointer;
+  color: #5ca5a5;
+  text-decoration: underline;
+  background: none;
+}
+
+.job {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  background: rgba(92, 165, 165, .1);
+  padding-left: 8px;
+  border-radius: 10px;
+}
+
+.btn  {
+  font-size: 24px;
+  color: white;
+  background: rgba(92, 165, 165, 1);
+  padding-inline: 9px;
+  border-radius: 0 10px 10px 0;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.job p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.1230769231915474px;
+  text-align: left;
+  color: rgba(92, 165, 165, 1);
+  border: none;
+  background: transparent;
+
+}
